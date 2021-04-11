@@ -1,0 +1,48 @@
+body {
+/* forma 1 de cambiar color de fondo */    
+/* background-color: aquamarine; */
+/* forma 2 de cambiar color de fondo */
+background: #000;;
+color: #fff;
+}
+p{
+    text-align:justify ;
+}
+h2,h3{
+    color: darkorchid;
+}
+
+h1{ 
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p a { 
+    font-size: 10px;
+    color:rgb(197, 140, 26);
+}
+.rojo {color:red}
+p #unStrong {color: royalblue;}
+/* para establecer un nivel de espicifidad determinado de sebe utilizar el caracter >
+entre los alementos. p>strong
+existe etiquetas hermanas + y etiquetas ~ */
+a[href="http://www.google.com"]{color: teal;font-size: 23px;}
+
+div{
+    width:60%;
+    background:darkslategray;
+    margin: 0.5% 0.5%;
+    padding: 3%;
+    border: 10px dotted #000
+    }
+
+form{
+    border: 10px solid #000
+}
+.formStyle {
+    border: 2px dotted #000
+}
+/* display:inline-block consultar */
